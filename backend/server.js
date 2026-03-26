@@ -12,6 +12,10 @@ obj.get("/getusers", (objreq,objres) => {
          objres.send("API is running");
 });
 
+obj.get("/getusersdata", (objreq,objres) => {
+         objres.send("API is running");
+});
+
 obj.listen(5000,()=>{
     console.log("server is listening at 5000 port");
 })
