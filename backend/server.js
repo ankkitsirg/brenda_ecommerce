@@ -12,7 +12,7 @@ obj.get("/getusers", (objreq,objres) => {
          objres.send("API is running");
 });
 
-obj.get("/getusersdata", (objreq,objres) => {
+obj.get("/getdata", (objreq,objres) => {
          objres.send("API is running");
 });
 
