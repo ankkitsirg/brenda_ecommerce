@@ -8,7 +8,7 @@ obj.use(cors());
 obj.use(express.json());
 
 //obj.get('interfacename',working)
-obj.get("/getdata", (objreq,objres) => {
+obj.get("/getusers", (objreq,objres) => {
          objres.send("API is running");
 });
 
